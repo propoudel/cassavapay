@@ -1,7 +1,7 @@
 Cassava Fintech payment gateway Magento extension
 ------------------------------------------------------
 
-The Cassava_pay provides payment gateway functionality for your Magento CE e-commerce store.
+The Cassava_Pay provides payment gateway functionality for your Magento CE e-commerce store.
 
 Install
 ---------
