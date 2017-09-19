@@ -71,6 +71,7 @@ class CassavaPayCurl
     public function create_send_json_request()
     {
         $billingDetails = $this->billingDetails;
+
         $configDetails = $this->configDetails;
 
         $param = $this->checkBillingDetails($billingDetails, $configDetails);
@@ -92,7 +93,7 @@ class CassavaPayCurl
             'account_number' => $billingDetails["order_id"],
             'payment_channel' => 'CARD',
             'dealer_name' => $param['first_name'],
-            'vendor_id' => '5d3a2502-104c-43d7-973a-ca624eb7c821',
+            'vendor_id' => $configDetails['company_token'],
             'amount' => $param['amount'],
             'order_details' => $products,
         ];

@@ -23,9 +23,6 @@
                 <field id="gateway_url" translate="label" type="text" sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>URL</label>
                 </field>
-                <field id="redirect_url" translate="label" type="text" sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Redirect URL</label>
-                </field>
             </group>
         </section>
     </system>
